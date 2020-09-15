@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: admin
+    username: root
+    url: "jdbc:mysql://localhost:3306/flight"
+  jpa:
+    hibernate:
+      ddl-auto: update
+app:
+  admin:
+    username: admin
+    password: 123123
